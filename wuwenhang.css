@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#title{
+	height: 55px;
+	width: 100%;
+	background-image: url(img/top.jpg);
+	border-bottom: 3px #FFD700 solid;
+	border-top: 3px #FFD700 solid;
+}
+#mainstay{
+	height: 2240px;
+	width: 100%;
+	background-image: url(img/background.jpg);
+	background-size: 1437px;
+}
+.Navbar{
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 200px;
+	font-size: 25px;
+}
+.top{
+	color: yellow;
+	text-decoration: none;
+}
+.top:hover{
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#four{
+	color: #FFF;
+	font-size: 27px;
+	font-weight: bolder;
+}
+/*以上为标头*/
+.right{
+	height: 200px;
+	width: 63px;
+	position: fixed;
+	left: 1450px;
+	top: 190px;
+}
+.right li{
+	height: 60px;
+	width: 63px;
+	text-align: center;
+	padding-top: 30px;
+	list-style-type: none;
+	float: right;
+	background-color: red;
+	border-bottom: 2px solid yellow;
+}
+#erweima img{
+	position: fixed;
+	width: 180px;
+	height: 180px;
+	left: 1270px;
+	top: 190px;
+}
+/*以上为右侧的固定导航窗口*/
+.cen2019{
+	width: 1437px;
+	text-align: center;
+	background-image: url('img/标头.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 30px;
+	color: yellow;
+	padding: 40px 0px;
+}
+#cen2019Box{
+	padding-top: 20px;
+	height: 670px;
+}
+a{
+	text-decoration: none;
+}
+#picBox_2019{
+	width: 1200px;
+	height: 570px;
+	margin-left: 90px;
+	border-top: 3px #FFD700 solid;
+	border-bottom: 3px #FFD700 solid;
+}
+.pic2019_1{
+	float: left;
+	margin: 10px 20px 0px 130px;
+	text-align: center;
+	color: #842B00;
+}
+.pic2019_1:hover #q1{
+	top: 180px;
+}
+.pic2019_1:hover p{
+	font-size: 28px;
+	margin-top: 30px;
+}
+.pic2019_1:hover .pic2019_tan{
+	height: 333px;
+	width: 500px;
+}
+.pic2019_1:hover .p1{
+	padding: 150px 0px;
+	background-color: #4c4c4c;
+	color:yellow;
+}
+.pic2019_tan{
+	position: absolute;
+	height: 20px;
+	width: 500px;	
+	opacity: 0.9;
+}
+
+#q1{
+	position: absolute;
+	left: 220px;
+	top: 547px;
+	z-index: 50;
+}
+/*以上为弹出框*/
+.pic2019_2A{
+	width: 180px;
+	height: 150px;
+	margin: 15px 30px 20px 14px;
+	text-align: center;
+	color: #842B00;
+	float: left;
+}
+.pic2019_2A:hover{
+	color: red;
+	font-weight: bolder;
+}
+.pic2019_3A{
+	width: 224px;
+	height: 202.8px;
+	margin: 10px 10px 0px 14px;
+	text-align: center;
+	color: #842B00;
+	float: left;
+}
+.pic2019_3A>img{
+	width: 224px;
+}
+.pic2019_3A:hover{
+	color: red;
+	font-weight: bolder;
+}
+#pic2019_3Aone{
+	margin-left: 120px;
+}
+/*以上2019年部分*/
+.cen2018{
+	width: 50px;
+	width: 1437px;
+	text-align: center;
+	background-image: url('img/标头.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 30px;
+	color: yellow;
+	padding: 50px 0px;
+	position: absolute;
+	top: 750px;
+}
+#cen2018Box{
+	padding-top: 20px;
+	height: 650px;
+	
+}
+#picBox_2018{
+	width: 1200px;
+	height: 650px;
+	margin-left: 90px;
+	border-top: 3px #FFD700 solid;
+	border-bottom: 3px #FFD700 solid;
+}
+.pic2018_1{
+	width: 224px;
+	height: 202.8px;
+	margin: 10px 10px 0px 14px;
+	text-align: center;
+	color: #842B00;
+	float: left;
+}
+#pic2018_1one{
+	margin-left: 120px;
+}
+#pic2018_1five{
+	margin-left: 120px;
+}
+#pic2018_1nine{
+	margin-left: 120px;
+}
+.pic2018_1:hover{
+	color: red;
+	font-weight: bolder;
+}
+/*以上2018年部分*/
+.cen2017{
+	width: 50px;
+	width: 1437px;
+	text-align: center;
+	background-image: url('img/标头.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 30px;
+	color: yellow;
+	padding: 50px 0px;
+	position: absolute;
+	top: 1530px;
+}
+#cen2017Box{
+	padding-top: 130px;
+	height: 626px;
+	
+}
+#picBox_2017{
+	width: 1200px;
+	height: 626px;
+	margin-left: 90px;
+	border-top: 3px #FFD700 solid;
+}
+.pic2017_1{
+	width: 224px;
+	height: 202.8px;
+	margin: 10px 10px 0px 14px;
+	text-align: center;
+	color: #842B00;
+	float: left;
+}
+#pic2017_1one{
+	margin-left: 120px;
+}
+#pic2017_1five{
+	margin-left: 120px;
+}
+#pic2017_1nine{
+	margin-left: 120px;
+}
+.pic2017_1:hover{
+	color: red;
+	font-weight: bolder;
+}
+/*以上为中间主体部分*/
+#Bottom{
+	width: 100%;
+	height: 270px;
+	background-image: url(img/background.jpg);
+	background-size: 1437px;
+}
+#Bottom>img{
+	width: 1260px;
+	height: 220px;
+	margin-left: 120px;
+	opacity: 0.7;
+}
