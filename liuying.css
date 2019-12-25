@@ -1,0 +1,328 @@
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		#title{
+			height: 55px;
+			width: 1520px;
+			background-image: url(image/a0.png);
+			border-bottom: 3px #FFD700 solid;
+			border-top: 3px #FFD700 solid;
+		}
+		#background{
+			height: 1770px;
+			width: 1520px;
+			background-image: url(image/111.jpg);
+			background-size: 1520px;
+		}
+		#title>div{
+			float: left;
+			width: 120px;
+			height: 30px;
+			margin-top: 10px;
+			margin-left: 210px;
+			font-size: 25px;
+			color: yellow;
+		}
+		#title>div:hover{
+			color: #FFF;
+			font-size: 30px;
+			font-weight: bolder;
+		}
+
+		#centerUp1{
+			width: 320px;
+			height: 20px;
+		}
+		#centerUp2{
+			width: 370px;
+			height: 20px;
+		}
+		#box{
+			height: 400px;
+			width: 800px;
+			margin-left: 100px;
+			position: relative;
+			overflow: hidden;
+			cursor: pointer;
+		}
+		#images{
+			width:4800px;
+			position: absolute;
+			left: -800px;
+		}
+		.slider{
+			width: 800px;
+			overflow: hidden;
+			float: left;
+		}
+		#content{
+			height: 350px;
+			width: 800px;
+			padding-top: 10px;
+			padding-right:0px;
+			float: left;
+		}
+		ul,li{
+			list-style: none;		
+		}
+		#box>span{
+			display: block;
+			width: 30px;
+			height: 50px;
+			text-align: center;
+			cursor: pointer;
+			top: 175px;
+			line-height: 50px;
+			background: #FFF;
+			font-size: 30px;
+			position: absolute;
+			opacity: 0; 
+		}
+		.nav{
+			position: absolute;
+			left: 320px;
+			bottom: 50px;
+		}
+		.nav>li{
+			float: left;
+			width: 20px;
+			height: 20px;
+			background-color: grey;
+			cursor: pointer;
+			margin:  0 10px;
+			border-radius: 50%;
+			text-align: center;
+		}
+		.nav .active{
+			background: red;
+		}
+		#leftNode{
+			left: 30px;
+		}
+		#rightNode{
+			right: 30px;
+		}
+		#passage1{
+			width: 500px;
+			height: 100px;
+			border: 2px red solid;
+			position: absolute;
+			top: 110px;
+			right: 50px;
+		}
+		#passage1>h3{
+			text-align: center;
+		}
+		#link{
+			width: 500px;
+			height: 250px;
+			border: 2px red solid;
+			position: absolute;
+			top: 220px;
+			right: 50px;
+			text-align: center;
+		}
+		#link>a{
+			color: black;
+		}
+		#ig1{
+			float: left;
+			margin-left: 130px;
+		}
+		#ig2{
+			float: left;
+			margin-left: 100px;
+		}
+		#ig3{
+			float: left;
+			margin-left: 100px;
+		}
+		#ig1>img{
+			width: 350px;
+			height: 250px;
+		}
+		#ig2>img{
+			width: 360px;
+			height: 250px;
+		}
+	
+		#ig3>img{
+			width: 360px;
+			height: 250px;
+		}
+		#ig1:hover{
+			color: red;
+			font-size: 20px;
+		}
+		#ig2:hover{
+			color: red;
+			font-size: 20px;
+		}
+		#ig3:hover{
+			color: red;
+			font-size: 20px;
+		}
+		
+		#partner{
+			width: 1000px;
+			height: 50px;
+			margin-left: 250px;
+			margin-top: 350px;
+		}
+		.p1{
+			width: 220px;
+			height: 300px;
+			float: left;
+			margin-top: 50px;
+			margin-left: 80px;
+		}
+		.p1>img{
+			width: 220px;
+			height: 300px;
+			float: left;
+		}
+		.p2>img{
+			width: 280px;
+			height: 300px;
+			float: left;
+			margin-top: 50px;
+			margin-left: 80px;
+		}
+		
+		.p3>img{
+			width: 230px;
+			height: 300px;
+			float: left;
+			margin-top: 50px;
+			margin-left: 80px;
+		}
+		.p4>img{
+			width: 350px;
+			height: 300px;
+			float: left;
+			margin-top: 50px;
+			margin-left: 80px;
+		}
+		#oneUp{
+			width: 220px;
+			height: 300px;
+			position: absolute;
+			opacity: 0;
+			top: 950px;
+			left: 80px;
+			background-color: black;
+		}
+		#oneUp:hover{
+			opacity: 0.8;
+		}
+	    #oneUp>img{
+	    	padding-left: 35px;
+	    	padding-top:70px;
+	    	height: 150px;
+	    	width: 150px; 
+	    }
+	    #twoUp{
+			width: 280px;
+			height: 300px;
+			position: absolute;
+			opacity: 0;
+			top: 950px;
+			left: 380px;
+			background-color: black;
+		}
+		#twoUp:hover{
+			opacity: 0.8;
+		}
+	    #twoUp>img{
+	    	padding-left: 70px;
+	    	padding-top:70px;
+	    	height: 150px;
+	    	width: 150px; 
+	    }
+	    #threeUp{
+			width: 230px;
+			height: 300px;
+			position: absolute;
+			opacity: 0;
+			top: 950px;
+			left: 740px;
+			background-color: black;
+		}
+		#threeUp:hover{
+			opacity: 0.8;
+		}
+	    #threeUp>img{
+	    	padding-left: 45px;
+	    	padding-top:70px;
+	    	height: 150px;
+	    	width: 150px; 
+	    }
+
+	    #fourUp{
+			width: 350px;
+			height: 300px;
+			position: absolute;
+			opacity: 0;
+			top: 950px;
+			right: 120px;
+			background-color: black;
+		}
+		#fourUp:hover{
+			opacity: 0.8;
+		}
+	    #fourUp>img{
+	    	padding-left: 100px;
+	    	padding-top:70px;
+	    	height: 150px;
+	    	width: 150px; 
+	    }
+	    #text{
+	    	height: 100px;
+	    	width: 200px;
+	    	position: absolute;
+	    	top: 1600px;
+	    	left:250px;
+	    }
+	    #year>img{
+	    	width: 1200px;
+	    	height: 530px;
+	    	position: absolute;
+	    	top: 1280px;
+	    	left: 100px;
+	    	opacity: 0.5;
+	    
+	    }
+	    #zhufu>h2{
+	    	font-weight: bolder;
+	    	position: absolute;
+	    	top: 1300px;
+	    	left: 350px;
+	    }
+	    #zhufu>p{
+	    	font-weight: bolder;
+	    	position: absolute;
+	    	top: 1350px;
+	    	left: 300px;
+	    	text-align: center;
+	    }
+	    #btn{
+	    	width: 120px;
+	    	height: 30px;
+	    	position: absolute;
+	    	top: 1700px;
+	    	left: 900px;
+	    }
+	  
+	    #go>img{
+	    	width:40px;
+	    	height: 40px;
+	    	position: fixed;
+	    	right: 0;
+	    	top: 350px;  
+	    	background-color: red;
+	    }
+	    #link>a:hover{
+	    	color: red;
+	    	font-size: 20px;
+	    }

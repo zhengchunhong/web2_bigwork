@@ -1,0 +1,191 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-12-16 11:31:45
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-12-25 14:34:54
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url('images/image2.jpg');
+	background-size: 100%;
+}
+.cenp p{
+	font-size: 40px;
+	text-shadow: 10px 10px 10px green;
+    color: yellowgreen;
+}
+#top{
+	height: 50px;
+	width: 100%;
+	background: url('images/image1.jpg');
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+#top-ul {
+	margin-left: 100px;
+}
+#top-ul li{
+	padding: 5px 100px ;
+	float: left;
+}
+#top-ul a{
+	font-size: 30px;
+	font-weight: bolder;
+	color: #fff;
+}
+#top-ul a:hover{
+	color: yellow;
+}
+#right-img{
+	position: fixed;
+	top: 500px;
+	right: 0;
+}
+#right-img p{
+	font-size: 20px;
+	text-shadow: 10px 10px 10px black;
+    color: white;
+}
+#center-1{
+	height: 200px;
+	width: 100%;
+	background: url('images/image8.png') no-repeat center;
+}
+#cenp-1{
+	height: 50px;
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	right: 10px;
+}
+#center-2{
+	height: 475px;
+	width: 100%;
+	border: 3px solid yellow;
+}
+.box{
+	width: 600px;
+	height: 375px;
+	border: 2px solid yellow;
+	margin: 50px 150px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 4200px;
+	position: absolute;
+	left: -600px;
+}
+.slide{
+	width: 600px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:    ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 200px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor:  pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+#uul{
+	margin: 50px 100px;
+}
+#uul li{
+	margin: 20px 0;
+}
+#uul li a{
+	font-size: 20px;
+	color: black;
+	text-shadow: 3px 3px 3px yellow;
+}
+#uul li a:hover{
+	color: red;
+}
+.center-3{
+	height: 150px;
+	width: 100%;
+	background: url('images/image8.png') no-repeat center;
+}
+.cenp-2{
+	height: 50px;
+	width: 475px;
+	margin: 0 auto;
+	position: relative;
+	top: 55px;
+}
+.center-4{
+	height: 450px;
+	margin: 0 120px;
+}
+.center-4 li{
+	float: left;
+	margin: 0 20px 10px 20px; 
+}
+.center-4 p{
+	font-size: 20px;
+	font-weight: bolder;
+	color: red;
+	text-align: center;
+	background-color: lightgoldenrodyellow;
+}
+.center-4 li:hover img{
+	opacity: 0.8;
+}
+.center-4 li:hover p{
+	text-shadow: 5px 5px 5px black;
+}
+.imag:hover{
+	opacity: 0.8;
+	text-shadow: 5px 5px 5px black;
+}
+#botoom{
+	margin: 100px 275px;
+}
+#botoom li{
+	float: left;
+	margin: 0 20px;
+}
